@@ -31,7 +31,7 @@ const cardImage = [
   {
     id: 4,
     title: "Cristian",
-    link: "#",
+    link: "#projects",
     image: "https://avatar.vercel.sh/scott",
   },
   {
