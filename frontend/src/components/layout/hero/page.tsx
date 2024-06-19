@@ -8,6 +8,8 @@ import WordRotate from "@/components/magicui/word-rotate";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
+import FeatureCard10 from "../../magicui/animated-feature-card-5";
+
 const Hero = () => {
   return (
     <section className="text-center pt-48">
@@ -53,6 +55,10 @@ const Hero = () => {
       </section>
 
       <RetroGrid className="-mt-[250px]" />
+
+      <section className="mx-48 mt-36">
+        <FeatureCard10 />
+      </section>
 
       <p className="my-[900px]">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veniam,
