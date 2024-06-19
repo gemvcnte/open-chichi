@@ -2,6 +2,8 @@ import React from "react";
 import { Button } from "../../ui/button";
 import { ChevronRight } from "lucide-react";
 
+import RetroGrid from "@/components/magicui/retro-grid";
+
 const Hero = () => {
   return (
     <section className="text-center pt-48">
@@ -18,6 +20,8 @@ const Hero = () => {
         Get started
         <ChevronRight className="ml-2 h-4 w-4" />
       </Button>
+
+      <RetroGrid className="-mt-[250px]" />
 
       <p className="my-[900px]">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veniam,
