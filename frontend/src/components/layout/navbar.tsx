@@ -15,7 +15,7 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    <nav className="fixed flex justify-center w-full  overflow-hidden ">
+    <nav className="fixed flex justify-center w-full  overflow-hidden z-50 ">
       <div className="supports-backdrop-blur:bg-white/90 flex justify-between gap-20 w-full max-w-[500px] rounded-full py-4 px-4 m-4 bg-white/40 backdrop-blur-md transition-all dark:bg-black/20 items-center border border-neutral-100">
         <section>
           <Particles
@@ -30,6 +30,8 @@ const Navbar = () => {
             width="1256"
             height="183"
             viewBox="0 0 1256 183"
+            update
+            c
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             className="h-[18px] w-auto"
