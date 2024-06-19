@@ -15,8 +15,8 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    <nav className="fixed flex justify-center w-full  overflow-hidden  ">
-      <div className="supports-backdrop-blur:bg-white/90 flex justify-between gap-20 w-full max-w-[500px] rounded-full py-4 px-4 m-4 bg-white/40 backdrop-blur-md transition-all dark:bg-black/20 items-center">
+    <nav className="fixed flex justify-center w-full  overflow-hidden ">
+      <div className="supports-backdrop-blur:bg-white/90 flex justify-between gap-20 w-full max-w-[500px] rounded-full py-4 px-4 m-4 bg-white/40 backdrop-blur-md transition-all dark:bg-black/20 items-center border border-neutral-100">
         <section>
           <Particles
             className="absolute inset-0"
@@ -51,7 +51,7 @@ const Navbar = () => {
         </section>
 
         <section>
-          <ShimmerButton className="shadow-2xl rounded-full font-semibold">
+          <ShimmerButton className="rounded-full font-semibold">
             Get started
           </ShimmerButton>
         </section>
