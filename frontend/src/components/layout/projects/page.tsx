@@ -15,18 +15,21 @@ const Projects = () => {
         <FeatureCard10 />
       </section>
 
-      <section className="flex gap-4 mx-48 mt-36" id="projects">
+      <section
+        className="flex flex-col lg:flex-row gap-4 mx-12 lg:mx-48 mt-36"
+        id="projects"
+      >
         <FeatureCard4 />
         <FeatureCard4 />
         <FeatureCard4 />
       </section>
 
-      <section className="flex gap-4 mx-48 mt-4 relative mb-64">
+      <section className="flex gap-4 lg:mx-48 mt-4  mb-64 relative  w-full max-w-[965px]  items-center justify-center overflow-hidden rounded-[2rem] lg:border py-14 p-10">
         <FeatureCard4 />
         <FeatureCard4 />
         <FeatureCard4 />
 
-        <div className="top-10 absolute inset-x-0 bottom-0 h-full bg-gradient-to-b from-transparent to-white to-80% dark:to-black">
+        <div className="top-10 absolute inset-x-0 bottom-0 h-full bg-gradient-to-b from-transparent to-white to-70% dark:to-black">
           <div className="mt-32 text-center">
             <div className="z-10 mx-auto size-24 rounded-[2rem] border bg-white/10 p-3 shadow-2xl backdrop-blur-md dark:bg-black/10 lg:size-32">
               <svg
