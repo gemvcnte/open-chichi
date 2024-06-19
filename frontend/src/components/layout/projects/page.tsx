@@ -5,7 +5,8 @@ import FeatureCard4 from "../../magicui/animated-feature-card-4";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { Button, buttonVariants } from "../../ui/button";
-import { ChevronRight } from "lucide-react";
+import { ArrowRightIcon, ChevronRight } from "lucide-react";
+import AnimatedShinyText from "@/components/magicui/animated-shiny-text";
 
 const Projects = () => {
   return (
@@ -51,7 +52,7 @@ const Projects = () => {
               Lorem ipsum dolor sit amet consectetur.
             </h1>
 
-            <p className="mt-4">
+            <p className="mt-4 text-gray-500 ">
               Lorem ipsum dolor consectetur adipisicing elit. Similique, illum!
             </p>
             <Link
@@ -62,11 +63,15 @@ const Projects = () => {
                   variant: "outline",
                 }),
                 "gap-2 whitespace-pre md:flex",
-                "group relative w-full gap-1 overflow-hidden rounded-full text-sm font-semibold tracking-tighter transition-all duration-150 ease-in-out hover:ring-2 hover:ring-neutral-300 hover:ring-offset-2 hover:ring-offset-inherit dark:hover:ring-black dark:hover:ring-offset-black max-w-[250px] mx-auto mt-4"
+                "group relative w-full  overflow-hidden rounded-full text-sm font-semibold tracking-tighter transition-all duration-150 ease-in-out hover:ring-2 hover:ring-neutral-300 hover:ring-offset-2 hover:ring-offset-inherit dark:hover:ring-black dark:hover:ring-offset-black max-w-[250px] mx-auto mt-4 flex gap-4"
               )}
             >
-              Get Started
-              <ChevronRight className="ml-1 size-4 flex-shrink-0 transition-all duration-300 ease-out group-hover:translate-x-1" />
+              <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
+                <span>
+                  <span className="mr-2">✨</span> Get started
+                </span>
+                <ChevronRight className="ml-2 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
+              </AnimatedShinyText>
             </Link>
           </div>
         </div>
