@@ -1,22 +1,20 @@
 "use client";
 
 import React from "react";
-import { Button, buttonVariants } from "../../ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 
 import RetroGrid from "@/components/magicui/retro-grid";
-import WordRotate from "@/components/magicui/word-rotate";
 
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
+import HeroWordRotate from "./hero-word-rotate";
+
 const Hero = () => {
   return (
     <section className="text-center pt-48">
-      <WordRotate
-        className="text-balance bg-gradient-to-br from-black from-30% to-black/60 bg-clip-text py-6 text-5xl font-medium leading-none tracking-tighter text-transparent dark:from-white dark:to-white/40 sm:text-6xl md:text-7xl lg:text-8xl"
-        words={["Lorem Ipsum", "Dolor Sit", "Amet Consectetur"]}
-      />
+      <HeroWordRotate />
 
       <p className="text-balance text-lg tracking-tight text-gray-400 md:text-xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
