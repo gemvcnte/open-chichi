@@ -1,5 +1,5 @@
 import React from "react";
-import FeatureCard10 from "../../magicui/animated-feature-card-5";
+import FeatureCard10 from "../../magicui/animated-feature-card-10";
 import FeatureCard4 from "../../magicui/animated-feature-card-4";
 
 import Link from "next/link";
