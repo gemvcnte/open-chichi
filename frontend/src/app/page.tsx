@@ -1,10 +1,6 @@
-import { Button } from "@/components/ui/button";
+import React from "react";
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <main>
-      <Button>hello</Button>
-    </main>
-  );
+  return <main>hello</main>;
 }
