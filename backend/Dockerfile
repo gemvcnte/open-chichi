@@ -1,12 +1,14 @@
-# using node-alpine as base image for security reasons and not bloated
-FROM node:18-alpine
+# not final docker image for backend
 
-WORKDIR /app
+# using node-alpine as base image for security reasons and not bloated
+FROM node:20-alpine
+
+WORKDIR /open-chichi
 
 # copy the package.json file in the root folder of the backend
 COPY package*.json ./
 
-RUN npm i
+RUN npm install
 
 COPY . .
 
